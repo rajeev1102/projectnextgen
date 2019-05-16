@@ -94,4 +94,4 @@ git branch -v
 git branch --merged
 git branch --no-merged
 git branch -d <branch name>
-17) point
+17) point added
