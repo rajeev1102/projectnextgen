@@ -1,0 +1,96 @@
+Git:
+https://git-scm.com/docs
+Chapter 1,2,3.
+
+Lynda - Git Essentials – 6 hours course – {Daniel Chan}
+
+
+-About Git/Gitlab[What and Why]--Philosophies and terminologies
+Install GitLab (Document will be shared) 
+-Hands on Git Commands [commands usage]
+	-Basic commands of GIT 
+-Creation of username and email id.
+	-Initializing git
+		-cloning/checkout  the sorce code
+		- checkin code
+		-creating master and feature/release/dev branches
+		-hands on commit the code ,merge the code
+	-viewing the number of branches,commits and the master branch in graph.
+	-resolving merge conflicts
+	-adding tags and tracks
+	-checking versioning of source code
+	-reverting the code to previous version
+    -Integrating Git with Jenkins CI
+--Understand rebase 
+--cherrypick
+-pushing the code to a  repository other than the origin 
+-Yml file understanding
+
+If required refer different sources(google,safari books/videos and so on )
+
+Theory:
+1)What is version control.
+2)Difference between Distributed VCS and Centralized VCS
+3)Difference between Git and other VCS
+4)What is a commit.
+5)What is SHA-1 hash mechanism.
+6)What are the main states in Basic Git workflow
+7)Life cycle of the status of the files in Git
+8)Difference between fetch and pull
+9)Explore Git commits and snapshots
+10)What is a branch.Why do we need it?
+
+Internal:
+1)Explore git config with options --system,--global,--local.
+
+Hands-on:
+1)Build a local Git repository from scratch and push to a remote repository.
+2)Build a remote Git repository from scratch and clone to a local machine.
+3)Create a Git repository from existing project or Clone a existing git repository into local machine
+4)Explore basic Git commands:
+ ->git init
+ ->git status
+ ->git branch
+ ->git add
+ ->git commit,with options(-a,-amend)
+ ->git push
+ ->git pull
+ ->git checkout
+ ->git merge 
+ ->git diff and so on
+ ->gui tools used to solve merge conflicts
+5)Explore git ignore files
+ ->Create a local .gitignore
+ ->Create a global .gitignore
+6)In git repository,
+     ->create a file(eg:sample.txt) 
+     ->stage the file 
+     ->remove the file
+7)In git repository,
+     ->create a file 
+     ->move/rename the file
+8)In git repository,do several commits then check the commit history. or Explore git log command
+9)In git repository,
+    Explore Undo Commit:
+     ->create a file/files
+     ->stage the file/files
+     ->commit the skipped file/files in the same commit
+    Unstage:
+     ->Create a file(eg:file2.py)
+     ->Stage the file
+     ->Unstage the file
+    Unmodify:
+     ->Already existing file(eg:file1.py)
+     ->Do modifications on the file
+     ->Unmodify the changes in the file
+10)Explore remote repositories(show,add,delete,rename,inspect remote repositories,fetch,pull from remote repo,push to remote repo)
+11)Explore tags(create,share,list)
+12)Explore git aliases
+13)Explore Branching(Create branch,Switch branch,Delete branch)
+14)Difference between fast-forwrd and recursive merging
+15)Explore basic branching and merging.Solve a merge conflict.
+16)Explore more commands on Git Branch management:
+git branch -v
+git branch --merged
+git branch --no-merged
+git branch -d <branch name>
